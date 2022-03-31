@@ -100,7 +100,7 @@ async function processRut(rut) {
         console.log('[ ✅ ] Success, user should be authorized!');
         return true;
     }else{
-        console.log('[ 🚫 ] Error! Favor verificar manualmente.');
+        console.log('[ 🚫 ] Error! Please check the user manually.');
         return false;
     }
 
