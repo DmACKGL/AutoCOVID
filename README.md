@@ -16,6 +16,9 @@ Since the university does not impose any security measures on this form, anyone 
          2. Value: YOUR_RUT
 3. Enjoy!
 
+### Can't find the secrets? (low quality, only for reference)
+![Tutorial](https://media2.giphy.com/media/mblUmq4djCKIy3ZMmL/giphy.gif)
+
 <!-- CONTACT -->
 ## Who
 
