@@ -14,7 +14,14 @@ Since the university does not impose any security measures on this form, anyone 
       1. New Repository Secret
          1. Name: rut
          2. Value: YOUR_RUT
-3. Enjoy!
+3. Wait 10 minutes
+5. Enjoy!
+
+#### Run the workflow manually
+1. Actions
+2. On "Workflows" click "BOT RUN"
+3. Run Workflow
+   1. Run Workflow
 
 ### Can't find the secrets? (low quality, only for reference)
 ![Tutorial](https://media2.giphy.com/media/mblUmq4djCKIy3ZMmL/giphy.gif)
