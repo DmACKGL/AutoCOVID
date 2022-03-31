@@ -1,0 +1,28 @@
+{
+  "name": "autocovid",
+  "version": "1.0.0",
+  "description": "Automatic COVID form submitter for UNAB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmACKGL/AutoCOVID.git"
+  },
+  "keywords": [
+    "UNAB",
+    "COVID",
+    "BOT"
+  ],
+  "author": "Franco Sanllehi <francosanllehi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DmACKGL/AutoCOVID/issues"
+  },
+  "homepage": "https://github.com/DmACKGL/AutoCOVID#readme",
+  "dependencies": {
+    "fetch-session": "^1.1.8"
+  }
+}
