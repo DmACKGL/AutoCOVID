@@ -31,5 +31,5 @@ jobs:
       
       - name: ▶️ Run Script
         env:
-          rut: ${{ secrets.rut }}
+          RUT: ${{ secrets.RUT }}
         run: npm start

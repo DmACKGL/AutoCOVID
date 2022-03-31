@@ -10,12 +10,12 @@ function censorRut(rut) {
 }
 
 async function loadConfig() {
-    const { rut } = process.env;
-    if (!rut || !Number.isInteger(rut)) {
+    const { RUT } = process.env;
+    if (!RUT || !Number.isInteger(RUT)) {
         throw new Error('RUT is required or must be an integer!');
     }
-    console.log(`[ 👤 ] RUT ${censorRut(rut)} loaded!`);
-    return rut;
+    console.log(`[ 👤 ] RUT ${censorRut(RUT)} loaded!`);
+    return RUT;
 }
 
 async function getAndSaveHeaders() {
