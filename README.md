@@ -42,5 +42,6 @@ Project Link: [https://github.com/DmACKGL/AutoCOVID](https://github.com/DmACKGL/
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-
+# ⚠️⚠️⚠️ DISCLAIMER! ⚠️⚠️⚠️
+https://github.com/DmACKGL/AutoCOVID/blob/25bbfa1c44db89d5b9161095e5606034641a0d7f/index.js#L110
 
