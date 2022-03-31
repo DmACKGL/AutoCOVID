@@ -10,10 +10,16 @@ function censorRut(rut) {
 }
 
 async function loadConfig() {
-    const { RUT } = process.env;
-    if (!RUT || !Number.isInteger(RUT)) {
+    let { RUT } = process.env;
+    try {
+        RUT = parseInt(RUT);
+        if (!RUT || !Number.isInteger(RUT)) {
+            throw new Error("Invalid RUT");
+        }
+    } catch (e) {
         throw new Error('RUT is required or must be an integer!');
     }
+   
     console.log(`[ 👤 ] RUT ${censorRut(RUT)} loaded!`);
     return RUT;
 }
